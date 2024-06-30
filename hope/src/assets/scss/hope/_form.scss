@@ -1,0 +1,496 @@
+/*
+-----------------------------------------------------------------------
+	Form CSS
+-----------------------------------------------------------------------
+*/
+
+.input-btn-group {
+  align-items: center;
+  background-color: $white;
+  border-radius: 5px;
+  box-shadow: 0px 35px 100px 0px rgba(171, 181, 189, 0.35);
+  display: flex;
+  padding: 5px 5px 5px 0;
+  .form-control {
+    border: none;
+    border-radius: 0;
+    border-right: 2px solid #eaeaea;
+    height: 24px;
+    padding-left: 30px;
+
+    @include placeholder {
+      color: #aba5a5;
+    }
+
+    &.no-border {
+      border: none;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .btn-theme {
+    border-radius: 5px;
+    height: 50px;
+  }
+}
+
+.appointment-area {
+  @media (max-width: 767px) {
+    padding-top: 80px;
+  }
+}
+
+// Appointment Form Style
+.appointment-form {
+  .form-group {
+    margin-bottom: 52px;
+    .form-control {
+      background-color: transparent;
+      background-clip: inherit;
+      border: none;
+      border-bottom: 1px solid #e1e1e1;
+      border-radius: 0;
+      color: $black;
+      font-size: 14px;
+      height: auto;
+      padding: 0 1px 10px;
+      @include placeholder {
+        color: $black-999;
+      }
+      &:focus {
+        border-bottom: 1px solid $black;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    p{
+      margin-top: 10px;
+      text-align: left;
+      color: red;
+    }
+    textarea {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #e1e1e1;
+      border-radius: 0;
+      color: $black;
+      font-size: 14px;
+      height: 162px;
+      padding: 0 1px;
+      width: 100%;
+      @include placeholder {
+        color: $black-999;
+      }
+      &:focus {
+        border-bottom: 1px solid $black;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    .btn-theme {
+      font-size: 20px;
+      font-weight: $font-weight-semi-bold;
+      letter-spacing: 0.428px;
+      margin-top: 40px;
+      min-height: 62px;
+      padding: 0 47.43px;
+      text-transform: uppercase;
+      @media #{$sm-device} {
+        font-size: 16px;
+        min-height: 50px;
+        padding: 0 20px;
+      }
+      &:hover,
+      &:focus {
+        background-color: $black;
+        border-color: $black;
+        color: $white;
+      }
+    }
+    &.datepicker-group {
+      position: relative;
+      label {
+        color: #999999;
+        cursor: pointer;
+        font-size: 18px;
+        width: 100%;
+        text-align: right;
+        margin: 0;
+        position: relative;
+        &::before{
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+      }
+      P{
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+.appointment-form-style1 {
+  position: relative;
+  z-index: 2;
+  border: 1px solid #6d0101;
+  background-color: $white;
+  box-shadow: 0px 50px 120px 0px rgba(68, 89, 89, 0.15);
+  margin: 0 auto;
+  @media (min-width: 1200px) {
+    margin: -125px auto 0;
+  }
+  @media (max-width: 767px) {
+    margin: 0px 15px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1100px;
+  }
+  @media (min-width: 1400px) {
+    max-width: 1310px;
+  }
+  // max-width: 1310px;
+  text-align: center;
+
+  .appointment-form {
+    padding: 80px 0px;
+
+    @media #{$xs-device} {
+      padding: 70px 0;
+    }
+  }
+}
+
+.contact-form {
+  .form-group {
+    margin-bottom: 30px;
+    .form-control {
+      background-clip: inherit;
+      border: 1px solid #d9d9d9;
+      border-radius: 0;
+      font-size: 14px;
+      height: 50px;
+      padding: 12px 30px;
+      @include placeholder {
+        color: $black-999;
+      }
+      &:focus {
+        border: 1px solid $theme-color;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    p{
+      color: red;
+    }
+    textarea {
+      border: 1px solid #d9d9d9;
+      border-radius: 0;
+      font-size: 14px;
+      min-height: 170px;
+      padding: 20px 30px 10px;
+      width: 100%;
+      @include placeholder {
+        color: $black-999;
+      }
+      &:focus {
+        border: 1px solid $theme-color;
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    .btn-theme {
+      font-size: 16px;
+      font-weight: $font-weight-bold;
+      letter-spacing: 0;
+      margin-top: 51px;
+      padding: 10px 26.05px;
+      &:hover,
+      &:focus {
+        background-color: $black;
+        border-color: $black;
+        color: $white;
+      }
+    }
+  }
+}
+
+// Comment Form Style
+.comment-form-wrap {
+  form {
+    .comment-form-content {
+      .form-group {
+        margin-bottom: 30px;
+        .form-control {
+          border: none;
+          border-radius: 0;
+          font-size: 14px;
+          height: 49px;
+          padding: 7px 21px;
+          @include placeholder {
+            color: $black-999;
+          }
+          &:focus {
+            border: none;
+            box-shadow: none;
+            outline: none;
+          }
+        }
+        textarea {
+          &.form-control {
+            min-height: 217px;
+          }
+        }
+        .btn-theme {
+          font-size: 14px;
+          font-weight: $font-weight-bold;
+          letter-spacing: 0.25px;
+          margin-top: 17px;
+          min-height: 60px;
+          padding: 10px 28.96px;
+        }
+      }
+    }
+  }
+}
+
+// Search Box Form Style
+.search-box-wrapper {
+  background-color: rgba($theme-color, 0.9);
+  position: fixed;
+  display: none;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+
+  .search-box-content-inner {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: transform 0.4s;
+    opacity: 0;
+    visibility: hidden;
+
+    @media #{$xs-device} {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  &.show {
+    .search-box-content-inner {
+      transform: scale(1);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .search-close {
+    color: $white;
+    font-size: 70px;
+    line-height: 1;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+
+    @media #{$sm-device} {
+      top: 20px;
+      right: 20px;
+    }
+
+    @media #{$md-device} {
+      top: 30px;
+      right: 30px;
+    }
+
+    &:hover {
+      color: $theme-color;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.search-box-form-wrap {
+  width: 100%;
+
+  input[type="search"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid $theme-color;
+    color: $theme-color;
+    display: block;
+    font-size: 120px;
+    line-height: 1;
+    padding: 20px 0;
+    width: 100%;
+
+    @media #{$md-device} {
+      font-size: 60px;
+    }
+
+    @media #{$sm-device} {
+      font-size: 40px;
+    }
+  }
+
+  .search-note {
+    color: $theme-color;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 20px;
+  }
+}
+
+// Subscribe Form Style
+.subscribe-form {
+  .subscribe-form-email {
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    position: relative;
+    &:before {
+      content: "\f003";
+      font-family: FontAwesome;
+      position: absolute;
+      top: 0;
+      line-height: 60px;
+    }
+    input {
+      background-color: transparent;
+      border: none;
+      border-radius: 0 30px 30px 0;
+      color: $theme-color;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 35px;
+      width: 100%;
+      @include placeholder {
+        color: $theme-color;
+      }
+    }
+  }
+  .subscribe-form-submit {
+    input {
+      background-color: $theme-color;
+      border: none;
+      border-radius: 30px;
+      color: $white;
+      font-size: 14px;
+      height: 60px;
+      line-height: 60px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+  }
+  p {
+    color: $theme-color;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &.inline-style {
+    display: flex;
+    justify-content: center;
+    .subscribe-form-email {
+      border-color: $black;
+      border-right: 0;
+      border-radius: 0;
+      height: 60px;
+      margin-bottom: 0;
+      padding-left: 50px;
+      width: 478px;
+    }
+    .subscribe-form-submit {
+      input {
+        background-color: transparent;
+        border: 1px solid $black;
+        border-radius: 0;
+        color: $black;
+        margin-bottom: 0;
+        width: 160px;
+        @include transition(0.4s);
+        &:hover {
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// Registration Form Style
+.registration-form {
+  form {
+    .form-group {
+      margin-bottom: 40px;
+      .form-control {
+        background-color: #134f8a;
+        border: none;
+        border-radius: 2px;
+        color: $white;
+        font-size: 16px;
+        min-height: 60px;
+        padding: 15px 40px;
+        @include placeholder {
+          color: #487eb4;
+          font-size: 16px;
+        }
+        &:active,
+        &:focus {
+          color: $white;
+          @include placeholder {
+            color: $white;
+          }
+        }
+      }
+      .btn-theme {
+        border-radius: 2px;
+        font-size: 16px;
+        letter-spacing: 0;
+        min-height: 60px;
+        text-transform: capitalize;
+      }
+    }
+    p {
+      color: #8bbff4;
+      font-size: 14px;
+      letter-spacing: 0;
+      margin-top: 33px;
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+
+.form-message {
+  overflow: hidden;
+  @include transition(0.3s);
+  button {
+    &.btn-close {
+      border: none;
+      box-shadow: none;
+      background-color: transparent;
+      float: right;
+      font-size: 14px;
+      margin-top: 0;
+      text-indent: 1000px;
+    }
+  }
+}

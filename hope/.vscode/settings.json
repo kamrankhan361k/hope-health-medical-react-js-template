@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        ".git/": true,
+        "node_modules/": false,
+        "public/": false
+    },
+    "search.exclude": {
+        "**/.cache": true,
+        "**/node_modules": true,
+        "**/public": true
+    },
+    "editor.rulers": [80],
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "eslint.validate": ["react", "html", "javascript"],
+    "debug.node.autoAttach": "on"
+}

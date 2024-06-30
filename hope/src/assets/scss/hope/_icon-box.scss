@@ -1,0 +1,67 @@
+/*
+-----------------------------------------------------------------------
+  Icon Box CSS
+-----------------------------------------------------------------------
+*/
+.icon-box-style {
+  @media #{$lg-device} {
+    margin-bottom: -60px;
+  }
+  @media #{$xs-device} {
+    margin-bottom: -50px;
+  }
+  .icon-box-item {
+    display: flex;
+    margin-bottom: 70px;
+    position: relative;
+    @media #{$lg-device} {
+      margin-bottom: 60px;
+    }
+    @media #{$xs-device} {
+      margin-bottom: 50px;
+    }
+
+    .icon {
+      color: #8f1b1b;
+      font-size: 72px;
+      float: left;
+      line-height: 1;
+      margin-right: 26px;
+      @include transition(0.3s);
+    }
+
+    .content {
+      font-size: 14px;
+      .title {
+        font-size: 16px;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        @media #{$xs-device} {
+          font-size: 14px;
+          margin-bottom: 12px;
+        }
+        a {
+          color: $black-0e;
+          &:hover {
+            color: #8f1b1b;
+          }
+        }
+      }
+      p {
+        font-size: 13px;
+        line-height: 24px;
+        @include transition(0.3s);
+      }
+      .btn-theme {
+        margin-top: 10px;
+      }
+    }
+    &:hover {
+      .content {
+        p {
+          color: $black;
+        }
+      }
+    }
+  }
+}

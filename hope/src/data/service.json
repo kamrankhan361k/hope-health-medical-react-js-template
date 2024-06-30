@@ -1,0 +1,208 @@
+[
+    {
+        "id": 1,
+        "type": "slider",
+        "sliderThumb": [
+            {
+                "id": 1,
+                "image": "img/photos/department-s1.jpg"
+            },
+            {
+                "id": 2,
+                "image": "img/photos/department-s2.jpg"
+            }
+        ],
+        "icon": "icofont-brain",
+        "title": "Psychiatry",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-eye",
+        "title": "Opthalmology",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-heart-beat",
+        "title": "Cardiology",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-microscope-alt",
+        "title": "Immumnology",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-blood-drop",
+        "title": "Hematology",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-laboratory",
+        "title": "Laboratory",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-pills",
+        "title": "Oncology",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "thumbnail",
+        "media": {
+            "thumb": "img/photos/department-s1.jpg",
+            "image": "img/photos/department-s1.jpg"
+        },
+        "icon": "icofont-tooth",
+        "title": "Dental",
+        "excerpt": "Lorem ispm dolor sit amaettum prahraph dolor sum",
+        "categories": ["Psychiatry", "Dental", "Cardiology", "Immunology", "Hematology", "Gastroenterology", "Orthopedics", "Pulmonary"],
+        "body": ["<p>Meditex Clinics Department of Dental Specialties in Minnesota provides coordinated care for adults and children who require specialized dental care. Depending on the persons needs, care may include one specialty or more than one (multispecialty care, also called multidisciplinary care).</p>", "<p>An attractive, healthy smile is an important part of life. Our General Dentistry Department provides a broad range of services to meet your family’s dental needs including:</p>", "<p>Preventive Dental Care:</p>", "<ul class='list-style1'><li>Oral Exam/Radiograph Study (mandatory at initial visit)</li><li>Periodontal Scaling/Deep Cleaning</li><li>Dental care for pregnant patients consists on evaluation and cleaning; mainly,to educate patients on oral health care and pregnancy</li><li>Restorative Dentistry – Amalgam/Composite Fillings</li></ul>"],
+        "priceList": [
+            {
+                "id": 1,
+                "listTitle": "Cosmetic Dentistry",
+                "listArray": ["<span class='service-name'>Porcelain Veneers</span><span class='service-price'>$1200</span>", "<span class='service-name'>Dental Bonding</span><span class='service-price'>$100</span>", "<span class='service-name'>Laser Gum Contouring</span><span class='service-price'>$300</span>", "<span class='service-name'>Teeth Whitening</span><span class='service-price'>$200</span>"]
+            },
+            {
+                "id": 2,
+                "listTitle": "Restorative Dentistry",
+                "listArray": ["<span class='service-name'>Dental Bridges</span><span class='service-price'>$1000</span>", "<span class='service-name'>Dental Crowns</span><span class='service-price'>$500</span>", "<span class='service-name'>Dental Fillings</span><span class='service-price'>$100</span>", "<span class='service-name'>Inlays and Onlays</span><span class='service-price'>$800</span>"]
+            }
+        ]
+    }
+]

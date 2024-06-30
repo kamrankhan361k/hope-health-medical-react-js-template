@@ -1,0 +1,135 @@
+//== Typography
+//
+//## Font and Color for body text, headings, and more.
+$font-current-theme1:	 'Inter', sans-serif;
+$font-current-theme2:	 'Libre Baskerville', serif;
+
+$body-font:				  $font-current-theme1;
+$heading-font:			  $font-current-theme1;
+$secondary-font:		  $font-current-theme2;
+
+
+$font-size-base: 14px;
+
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-medium:          500;
+$font-weight-semi-bold:       600;
+$font-weight-bold:            700;
+$font-weight-extra-bold:      800;
+$font-weight-black:           900;
+
+
+// body line height
+$body-line-height:            1.7142857143;
+
+// body color
+$body-color:            #666666;
+
+// heading color
+$heading-color:         #000;
+
+// theme color
+$theme-color:			#339999;
+$theme-color2:			#303744;
+$theme-color3:			#669900;
+$theme-color4:			#f53400;
+$theme-color5:			#568701;
+$theme-color6:			#023059;
+
+// common color
+$black:					#000;
+$black-111:				#111;
+$black-222:				#222;
+$black-333:				#333;
+$black-444:				#444;
+$black-555:				#555;
+$black-666:				#666;
+$black-777:				#777;
+$black-888:				#888;
+$black-999:				#999999;
+$black-45:				#454545;
+$black-0e:				#0e0e0e;
+
+$white:			 		 #fff;
+$white-f1:			 	 #f1f1f1;
+$white-f2:			 	 #f2f2f2;
+$white-f3:			 	 #f3f3f3;
+$white-f4:			 	 #f4f4f4;
+$white-f5:			 	 #f5f5f5;
+$white-f6:			 	 #f6f6f6;
+$white-f7:			 	 #f7f7f7;
+$white-f8:			 	 #f8f8f8;
+$white-f9:			 	 #f9f9f9;
+$white-fa:			 	 #fafafa;
+$white-fb:			 	 #fbfbfb;
+$white-fc:			 	 #fcfcfc;
+$white-fd:			 	 #fdfdfd;
+$white-fe:			 	 #fefefe;
+$gray-light:			 #ddd;
+$gray-lighter:			 #eee;
+$gray-ccc:               #ccc;
+
+$primary:#8f1b1b;
+
+
+// Variables
+
+
+// # Paragraph spacing
+$paragraph-spacing: 0px;
+//# Base line height
+$base-line-height: 24px;
+// theme colors
+$theme-color: #8f1b1b;
+
+// text colors
+$black: #000;
+$color-white: #ffffff;
+$color-dark: #000;
+$color-dark2: #292929;
+$color-grey: #f5f5f5;
+$color-grey-dark: #efefef;
+$color-grey-light: #f6f6f6;
+$color-grey-light2: #f9f9f9;
+$body-color: #707070;
+$color-warning: #fdd835;
+$star-deselect: #d0d0d0;
+$del: #9b9b9b;
+$focus-color: #253237;
+$placeholder-color: #999;
+$instock: #777;
+$feature: #f1f1f1;
+$camel: #c19a6b;
+// Soft color
+$black-soft: #7e7e7e;
+$grey-soft: #9d9d9d;
+$overlay-color: rgba(0, 0, 0, 0.5);
+$progress-color: rgba(49, 56, 72, 0.298);
+// separator color
+$separator-color: #bfbfbf;
+$deselect: #e0e0e0;
+$border-color: #ebebeb;
+$border-color2: #eee;
+$tab-menu-color: #666;
+// theme dots color
+$themedot2: #d6d6d6;
+$grayCardBg: #f7f7f7;
+
+
+
+//== Responsive Media Query Variables
+//
+$xlmax-device: 'only screen and (min-width: 1200px) and (max-width: 1599.98px)';
+$xls-device:   'only screen and (min-width: 1400px)';
+$xl-device:    'only screen and (min-width: 1200px)';
+$lg-up-device: 'only screen and (min-width: 992px)';
+$xlm-device:   'only screen and (max-width: 1549px)';
+$xlsm-device:  'only screen and (max-width: 1400px)';
+$xxl-device:   'only screen and (max-width: 1399px)';
+$lg-device:    'only screen and (max-width: 1199px)';
+$md-device:    'only screen and (max-width: 991px)';
+$sm-device:    'only screen and (max-width: 767px)';
+$xs-device:    'only screen and (max-width: 575px)';
+$xxs-device:   'only screen and (max-width: 479.98px)';

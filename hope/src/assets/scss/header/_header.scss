@@ -1,0 +1,341 @@
+.header {
+    background: #8f1b1b;
+}
+
+// header top
+
+.header-top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #9d3a3a;
+
+    p {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        color: #cccccc;
+        font-size: 14px;
+
+        span {
+            font-weight: 700;
+        }
+
+        i {
+            margin-right: 20px;
+        }
+    }
+}
+
+.social-links {
+    li {
+        display: inline-block;
+
+        & + li {
+            margin-left: 20px;
+        }
+
+        a {
+            font-size: 16px;
+            color: $white;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+}
+
+// header-middle-content
+// media css
+
+.header-middle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.media-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include max-screen(991) {
+        flex-direction: column;
+    }
+}
+
+.media {
+    display: flex;
+
+    span {
+        align-self: center;
+    }
+}
+
+.media-content {
+    flex: 1;
+}
+
+.header-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media-list {
+    & + .media-list {
+        @include min-screen(992) {
+            margin-left: 50px;
+        }
+
+        @include max-screen(991) {
+            margin-top: 15px;
+        }
+    }
+}
+
+.media-icon {
+    color: #000;
+    font-size: 24px;
+    margin-right: 20px;
+
+    @include min-screen(992) {
+        color: #fff;
+    }
+}
+
+.media-sub-heading {
+    font-family: "Sarabun", sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+    @media #{$xl-device} {
+        font-size: 12px;
+    }
+
+    @include min-screen(992) {
+        color: #cccccc;
+    }
+}
+
+.media-heading {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    line-height: 1;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #000;
+    }
+
+    @media #{$xl-device} {
+        font-size: 18px;
+    }
+
+    @include min-screen(992) {
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.book-now-btn {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background: #6d0101;
+    display: inline-block;
+
+    &:hover {
+        background: #000;
+        color: #fff;
+    }
+
+    @include max-screen(991) {
+        padding: 10px 15px;
+    }
+}
+
+// header-bottom
+
+// main-menu
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+        position: relative;
+
+        & + li {
+            margin-left: 35px;
+        }
+
+        &:hover {
+            .sub-menu {
+                top: 100%;
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+
+        a {
+            &.active,
+            &:hover {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .main-menu-link {
+        font-family: "Sarabun", sans-serif;
+        display: block;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 15px 5px;
+
+        &::before {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: #fff;
+            content: "";
+            transition: all 0.3s;
+        }
+    }
+}
+
+.sub-menu {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
+    padding: 15px 15px;
+    min-width: 250px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in-out 0.3s;
+
+    li {
+        & + li {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+
+    &-link {
+        padding: 5px 0px;
+        color: #000;
+        text-transform: capitalize;
+
+        &:hover {
+            padding-left: 5px;
+        }
+
+        &:hover,
+        &.active {
+            color: #000;
+        }
+    }
+}
+
+.sticky-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px 0px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 11;
+    transition: all 0.3s;
+
+    .main-menu-link {
+        color: #000;
+    }
+}
+
+.sticky-header.sticky {
+    opacity: 1;
+    visibility: visible;
+    animation: fadeInDown 0.5s ease-in-out;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+
+    .main-menu {
+        li {
+            .main-menu-link {
+                &:hover {
+                    color: #6d0101;
+                }
+
+                &::before {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0;
+                    width: 0%;
+                    height: 2px;
+                    background: #6d0101;
+                    content: "";
+                    transition: all 0.3s;
+                }
+            }
+
+            &.active,
+            &:hover {
+                .main-menu-link {
+                    color: #6d0101;
+
+                    &::before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mobile-sticky.sticky {
+    @include max-screen(991) {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 11;
+        transition: all 0.3s;
+        animation: fadeInDown 0.5s ease-in-out;
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+    }
+}
+
+// header-top-offcanvas
+
+.header-top-offcanvas {
+    p {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        color: #000;
+        font-size: 13px;
+    }
+}

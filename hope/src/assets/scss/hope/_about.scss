@@ -1,0 +1,153 @@
+/*
+-----------------------------------------------------------------------
+	About CSS
+-----------------------------------------------------------------------
+*/
+.about-area {
+  padding: 125px 0px;
+  border-bottom: 1px solid #e5e5e5;
+  @media #{$lg-device} {
+    padding: 90px 0px;
+  }
+  @media #{$sm-device} {
+    padding:70px 0px;
+  }
+  .text-pra {
+    color: $black;
+    font-size: 36px;
+    font-weight: $font-weight-light;
+    line-height: 48px;
+    letter-spacing: -.10px;
+    margin: 0 auto 125px;
+    max-width: 830px;
+    padding-right: 50px;
+    @media #{$lg-device} {
+      margin-bottom: 85px;
+    }
+    @media #{$sm-device} {
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 50px;
+      padding-right: 0;
+    }
+  }
+  .service-list-content {
+    margin: 0 auto 62px;
+    max-width: 830px;
+    @media #{$lg-device} {
+      margin-bottom: 40px;
+    }
+    @media #{$sm-device} {
+      margin-bottom: 20px;
+    }
+    .title {
+      margin-bottom: 41px;
+      text-transform: uppercase;
+      @media #{$sm-device} {
+        margin-bottom: 30px;
+      }
+    }
+    p {
+      color: $black-999;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin-bottom: 69px;
+      @media #{$sm-device} {
+        margin-bottom: 40px;
+      }
+      &.text-block {
+        color: $black;
+        font-size: 16px;
+        margin-bottom: 31px;
+      }
+    }
+    .service-list {
+      display: flex;
+      justify-content: space-between;
+      @media #{$xxs-device} {
+        display: block;
+        padding-bottom: 20px;
+      }
+      ul {        
+        @media #{$xxs-device} {
+          margin-bottom: 0;
+        }
+        li {
+          margin-bottom: 24px;
+          @media #{$sm-device} {
+            margin-bottom: 18px;
+          }
+          a {
+            color: $black;
+            font-size: 16px;
+            letter-spacing: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            @media #{$sm-device} {
+              font-size: 14px;
+            }
+            &:hover {
+              color: $theme-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .office-center-content {
+    .title {
+      margin: 0 auto 40px;
+      max-width: 830px;
+      text-transform: uppercase;
+      @media #{$sm-device} {
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      color: $black-999;
+      letter-spacing: 0;
+      line-height: 30px;
+      margin: 0 auto 59px;
+      max-width: 830px;
+      @media #{$sm-device} {
+        margin-bottom: 40px;
+      }
+    }
+    .office-address-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 125px auto 0;
+      max-width: 830px;
+      padding-right: 30px;
+      @media #{$lg-device} {
+        margin-top: 95px;
+      }
+      @media #{$sm-device} {
+        margin-top: 80px;
+      }
+      @media #{$xxs-device} {
+        display: block;
+        margin-top: 65px;
+      }
+      .office-address-item {
+        h5 {
+          font-size: 18px;
+          letter-spacing: -.21px;
+          margin-bottom: 23px;
+          text-transform: uppercase;
+        }
+        ul {
+          margin-bottom: 30px;
+          li {
+            color: $black-999;
+            font-size: 16px;
+            margin-bottom: 3px;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

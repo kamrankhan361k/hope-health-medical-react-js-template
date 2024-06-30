@@ -1,0 +1,194 @@
+/*
+-----------------------------------------------------------------------
+	Contact CSS
+-----------------------------------------------------------------------
+*/
+.contact-area {
+  background-color: #e9edee;
+  padding: 0 0 125px;
+  position: relative;
+  @media #{$lg-device} {
+    padding: 0 0 100px;
+  }
+  @media #{$md-device} {
+    padding: 100px 0;
+  }
+  @media #{$sm-device} {
+    padding: 80px 0;
+  }
+  .container {
+    @media #{$sm-device} {
+      max-width: none;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    @media #{$xxs-device} {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+.contact-info-content {
+  background-color: $theme-color;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+  margin-top: -90px;
+  padding: 75px 45px 90px 70px;
+  @media #{$lg-device} {
+    margin-bottom: 90px;
+  }
+  @media #{$md-device} {
+    margin-top: 0;
+  }
+  @media #{$sm-device} {
+    display: block;
+    margin-bottom: 80px;
+    padding: 57px 27px 72px 31px;
+  }
+  @media #{$xxs-device} {
+    display: block;
+    margin-bottom: 70px;
+    padding: 57px 17px 62px 21px;
+  }
+
+  .info-address {
+    max-width: 375px;
+    position: relative;
+    @media #{$sm-device} {
+      margin-bottom: 50px;
+      max-width: none;
+      padding-bottom: 40px;
+    }
+    &:after {
+      background-color: $white;
+      bottom: 8px;
+      content: "";
+      height: 3px;
+      left: 0;
+      position: absolute;
+      width: 70px;
+    }
+    .title {
+      color: $white;
+      display: inline-block;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.44px;
+      line-height: 1.1;
+      margin-bottom: 19px;
+      @media #{$lg-device} {
+        font-size: 30px;
+      }
+      span {
+        color: #c8eaea;
+        font-weight: $font-weight-light;
+      }
+    }
+    p {
+      color: $white;
+      font-size: 16px;
+      letter-spacing: -0.15px;
+      line-height: 24px;
+      margin-bottom: 36px;
+      @media #{$lg-device} {
+        font-size: 15px;
+      }
+    }
+    a {
+      color: $white;
+      font-size: 16px;
+      letter-spacing: 0;
+      span {
+        color: #99cccc;
+      }
+    }
+  }
+  .brand-office {
+    margin-top: 19px;
+    max-width: 430px;
+    @media #{$sm-device} {
+      max-width: none;
+    }
+    .info-tem {
+      letter-spacing: -0.15px;
+      margin-bottom: 42px;
+      h6 {
+        color: #99cccc;
+        font-size: 16px;
+        font-weight: $font-weight-normal;
+        margin-bottom: 9px;
+      }
+      p {
+        color: $white;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+      }
+      &.style-two {
+        margin-bottom: 50px;
+        h6 {
+          color: $white;
+          font-size: 14px;
+          font-weight: $font-weight-bold;
+          letter-spacing: 0;
+          margin-bottom: 15px;
+          text-transform: uppercase;
+        }
+        p {
+          font-size: 48px;
+          line-height: 1;
+          @media #{$lg-device} {
+            font-size: 36px;
+          }
+          @media #{$xxs-device} {
+            font-size: 30px;
+          }
+        }
+      }
+      &:last-child {
+        h6 {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+.contact-form {
+  .section-title {
+    margin-bottom: 70px;
+    @media #{$lg-device} {
+      margin-bottom: 60px;
+    }
+  }
+  .contact-form-wrapper {
+    background-color: $white;
+    padding: 45px 50px 61px;
+    @media #{$xxs-device} {
+      padding: 35px 25px 45px;
+    }
+  }
+}
+
+.contact-map-area {
+  background-color: $gray-light;
+  height: 636px;
+  @media #{$xxl-device} {
+    height: 420px;
+  }
+  @media #{$lg-device} {
+    height: 380px;
+  }
+  @media #{$md-device} {
+    height: 320px;
+  }
+  @media #{$sm-device} {
+    height: 300px;
+  }
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}

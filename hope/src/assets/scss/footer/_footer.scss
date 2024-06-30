@@ -1,0 +1,283 @@
+/*
+-----------------------------------------------------------------------
+  Footer CSS
+-----------------------------------------------------------------------
+*/
+
+.footer-area {
+  color: $body-color;
+  padding: 125px 0 0;
+  @media #{$lg-device} {
+    padding: 90px 0 0;
+  }
+  @media #{$md-device} {
+    padding: 90px 0 0;
+  }
+  @media #{$sm-device} {
+    padding: 80px 0 0;
+  }
+  &.border-top-style {
+    &:before {
+      border-top: 1px solid #e5e5e5;
+      content: "";
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+  .widget-title {
+    font-size: 18px;
+    font-weight: $font-weight-bold;
+    letter-spacing: -0.522px;
+    margin: 15px 0 70px;
+
+    @media (max-width: 767px) {
+      margin: 15px 0 40px;
+    }
+
+    text-transform: uppercase;
+    @media #{$md-device} {
+      margin-top: 0;
+    }
+    @media #{$sm-device} {
+      margin-top: 10px;
+    }
+    @media #{$xs-device} {
+      margin-bottom: 30px;
+    }
+  }
+  .about-widget {
+    @media #{$md-device} {
+      margin-bottom: 70px;
+    }
+    @media #{$sm-device} {
+      margin-bottom: 65px;
+    }
+    @media #{$xs-device} {
+      margin-bottom: 65px;
+    }
+    .footer-logo {
+      display: inline-block;
+      margin-bottom: 50px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      margin-bottom: 40px;
+    }
+  }
+  .widget-posts {
+    margin-top: -6px;
+    .posts-item {
+      li {
+        border-bottom: 1px solid #e1e1e1;
+        margin-bottom: 9px;
+        padding-bottom: 11px;
+        a {
+          align-items: flex-end;
+          color: $body-color;
+          display: flex;
+          letter-spacing: 0;
+          @media #{$sm-device} {
+            align-items: flex-start;
+          }
+          .icon {
+            font-size: 15px;
+            line-height: 20px;
+            margin-right: 8px;
+            @media #{$sm-device} {
+              position: relative;
+              top: 3px;
+            }
+          }
+          &:hover {
+            color: $black;
+          }
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .widget-contact-info {
+    padding-top: 25px;
+    li {
+      border-top: 1px solid #e1e1e1;
+      display: flex;
+      font-size: 14px;
+      line-height: 26px;
+      margin-bottom: 12px;
+      padding-top: 4px;
+      @include transition(0.3s);
+      i {
+        color: $black-999;
+        font-size: 20px;
+        line-height: 26px;
+        position: relative;
+        top: -2px;
+        width: 37px;
+        @include transition(0.3s);
+      }
+      a {
+        color: $body-color;
+      }
+      &:first-child {
+        margin-bottom: 13px;
+        padding-top: 5px;
+        i {
+          font-size: 22px;
+          left: -2px;
+          top: 1px;
+          width: 55px;
+          @media #{$xs-device} {
+            width: 37px;
+          }
+          @media (max-width: 359px) {
+            width: 48px;
+          }
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+        padding-top: 5px;
+        i {
+          top: 0;
+        }
+      }
+      &:hover {
+        color: $theme-color;
+        i {
+          color: $theme-color;
+        }
+        a {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+  .widget-newsletter {
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: -7px;
+    padding-bottom: 41px;
+    @media #{$xs-device} {
+      border-bottom: none;
+      padding-bottom: 10px;
+    }
+    p {
+      letter-spacing: 0;
+      line-height: 26px;
+      margin-bottom: 24px;
+    }
+    .newsletter-form {
+      position: relative;
+      &.input-btn-group {
+        background-color: $white-f8;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        .form-control {
+          background-color: $white-f8;
+          border: none;
+          border-radius: 0;
+          height: 46px;
+          margin-bottom: 0;
+          padding: 6px 18px;
+          position: relative;
+          @include placeholder {
+            color: $black-999;
+            font-size: 14px;
+          }
+          @media #{$xxl-device} {
+            width: calc(100% - 49px);
+          }
+          &:focus {
+            box-shadow: none;
+            padding: 5px 17px;
+          }
+        }
+        .btn-theme {
+          background-color: $theme-color;
+          border-radius: 0;
+          color: $white;
+          height: 46px;
+          min-height: auto;
+          padding: 10px 12.5px;
+          i {
+            font-size: 22px;
+          }
+          &:hover {
+            background-color: $black;
+            border-color: $black;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .widget-social-icons {
+    margin-bottom: 0;
+    margin-left: -1px;
+    margin-top: 14px;
+    a {
+      color: $black-999;
+      display: inline-block;
+      font-size: 18px;
+      margin-right: 13.84px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+  .footer-bottom {
+    margin-top: 105px;
+    padding: 55px 0;
+    position: relative;
+    @media #{$lg-device} {
+      margin-top: 70px;
+    }
+    @media #{$sm-device} {
+      margin-top: 30px;
+      padding: 21px 0 18px;
+    }
+    @media #{$xs-device} {
+      margin-top: 70px;
+    }
+    &:before {
+      border-top: 1px solid #e5e5e5;
+      content: "";
+      left: 50%;
+      max-width: 1170px;
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+    .widget-copyright {
+      p {
+        color: $black-999;
+        letter-spacing: 0;
+        padding-top: 0;
+        span {
+          color: $theme-color;
+          font-weight: $font-weight-bold;
+        }
+        i {
+          color: $theme-color4;
+          font-size: 16px;
+          margin: 0 5px;
+        }
+        a {
+          color: $black;
+          font-weight: $font-weight-medium;
+        }
+      }
+    }
+  }
+}

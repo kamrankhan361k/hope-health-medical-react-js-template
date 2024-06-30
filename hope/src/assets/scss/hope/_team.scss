@@ -1,0 +1,152 @@
+/*
+-----------------------------------------------------------------------
+	Team CSS
+-----------------------------------------------------------------------
+*/
+.team-area {
+  &.team-default-area {
+    padding: 125px 0px;
+    @media #{$lg-device} {
+      padding: 90px 0px;
+    }
+    @media #{$sm-device} {
+      padding: 80px 0px;
+    }
+    @media #{$xs-device} {
+      padding: 80px 0px;
+    }
+    .section-title {
+      margin-bottom: 64px;
+      @media #{$sm-device} {
+        margin-bottom: 60px;
+      }
+      @media #{$xs-device} {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+.team-member {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  padding: 30px;
+  position: relative;
+  @media #{$sm-device} {
+    padding: 10px;
+  }
+  .thumb {
+    overflow: hidden;
+    img {
+      width: 100%;
+      transition: all 0.3s;
+    }
+  }
+  .content {
+    padding: 35px 30px 0px;
+    text-align: center;
+    @media #{$sm-device} {
+      padding: 30px 10px 0px;
+    }
+    .member-info {
+      .name {
+        color: $black;
+        font-size: 24px;
+        font-weight: $font-weight-normal;
+        letter-spacing: -0.25px;
+        margin-bottom: 27px;
+        transition: all 0.3s;
+        @media #{$sm-device} {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+        @media #{$xs-device} {
+          font-size: 16px;
+        }
+        a {
+          color: $black;
+        }
+      }
+      p {
+        color: $black-999;
+        margin-bottom: 30px;
+        @media #{$sm-device} {
+          margin-bottom: 20px;
+        }
+      }
+      .btn-link {
+        color: #000;
+        font-size: 14px;
+        font-weight: 500;
+        @media #{$sm-device} {
+          font-size: 13px;
+        }
+        @media #{$xs-device} {
+          font-size: 12px;
+        }
+        &:hover {
+          color: $theme-color;
+        }
+      }
+      .designation {
+        color: $black;
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+      .social-icons {
+        a {
+          color: $black;
+          display: inline-block;
+          font-size: 16px;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  &:hover {
+    .thumb {
+      img {
+        @include scale(1.2);
+      }
+    }
+    .content {
+      .member-info {
+        .name {
+          color: $theme-color;
+        }
+      }
+    }
+  }
+}
+
+.team-slider-container {
+  display: flex;
+  flex-direction: column-reverse;
+  .swiper-pagination {
+    align-items: center;
+    display: flex;
+    margin: 70px auto 0;
+    min-height: 18px;
+    max-width: 71px;
+    position: relative;
+    &.swiper-pagination-bullets {
+      .swiper-pagination-bullet {
+        background-color: $gray-ccc;
+        border-radius: 50%;
+        height: 12px;
+        margin: 0 5px;
+        opacity: 1;
+        width: 12px;
+        @include transition(0.3s);
+        &:hover {
+          background-color: $theme-color;
+        }
+        &.swiper-pagination-bullet-active {
+          background-color: $theme-color;
+          height: 17px;
+          width: 17px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+/*
+-----------------------------------------------------------------------
+	Feature CSS
+-----------------------------------------------------------------------
+*/
+.feature-section {
+  padding: 125px 0px 180px;
+  position: relative;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    padding: 90px 0px 90px;
+  }
+  @media (max-width: 991px) {
+    padding: 90px 0px 90px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 80px 0px 80px;
+  }
+
+  .container {
+    z-index: 3;
+    position: relative;
+  }
+  .section-title {
+    margin-bottom: 100px;
+    @media #{$lg-device} {
+      margin-bottom: 70px;
+    }
+    @media #{$sm-device} {
+      margin-bottom: 60px;
+    }
+    @media #{$xs-device} {
+      margin-bottom: 50px;
+    }
+  }
+  .thumb {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+    z-index: 1;
+    @media #{$lg-device} {
+      display: none;
+    }
+  }
+}

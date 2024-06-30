@@ -1,0 +1,43 @@
+/*
+-----------------------------------------------------------------------
+	Home Default CSS
+-----------------------------------------------------------------------
+*/
+.home-default-wrapper {
+  .accordian-content {
+    padding-right: 30px;
+    padding-top: 2px;
+    .accordion {
+      margin-bottom: 52px;
+      @media #{$md-device} {
+        margin-bottom: 30px;
+      }
+    }
+    .btn-line {
+      border-bottom: 1px solid #7e7e7e;
+      color: $body-color;
+      display: inline-block;
+      line-height: 1;
+      padding-bottom: 1px;
+      text-transform: uppercase;
+      &:hover {
+        border-bottom-color: $theme-color;
+        color: $theme-color;
+      }
+    }
+  }
+  .map-area {
+    background-color: $gray-light;
+    height: 667px;
+    @media #{$xxl-device} {
+      height: 360px;
+    }
+    @media #{$sm-device} {
+      height: 280px;
+    }
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

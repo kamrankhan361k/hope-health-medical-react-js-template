@@ -1,0 +1,46 @@
+{
+    "parser": "babel-eslint",
+    "root": true,
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:import/warnings",
+        "plugin:jsx-a11y/strict",
+        "plugin:prettier/recommended",
+        "prettier"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "react-hooks", "prettier", "jsx-a11y"],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/require-default-props": 0,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "prettier/prettier": "error",
+        "jsx-a11y/label-has-associated-control": [ "error", {
+            "required": {
+              "some": [ "nesting", "id"  ]
+            }
+        }],
+        "jsx-a11y/label-has-for": [ "error", {
+            "required": {
+              "some": [ "nesting", "id"  ]
+            }
+        }]
+    }
+}
